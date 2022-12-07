@@ -5,8 +5,9 @@ const dogtypes = [
     description: "Large athletic, and intelligent dog with noble personalities",
     image:
       "https://www.petplace.com/static/d9ef35df99413fbc95fa70fb5e2cb4a5/0979f/Image00077-2.jpg",
-    size: "large",
+    size: "Large",
     lifespan: 13,
+    breed: "Purebred",
   },
   {
     name: "Bulldog",
@@ -14,16 +15,19 @@ const dogtypes = [
     description: "Stocky build and walk with a swinging gait",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9dsgCBp--4TcUhn10XSbdss0915ZYlvSMmA&usqp=CAU",
-    size: "medium",
+    size: "Medium",
     lifespan: 10,
+    breed: "Purebred",
   },
   {
     name: "Labrador Retriever",
     price: 1000,
     description: "Affectionate, energetic, and enthusiastic companions",
-    image: "",
-    size: "large",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqtevyTOTKqvE9uNtGEMxfEUMJglnnBT0iVg&usqp=CAU",
+    size: "Large",
     lifespan: 12,
+    breed: "Purebred",
   },
   {
     name: "Golden Retriever",
@@ -31,12 +35,86 @@ const dogtypes = [
     description: "Well-built dog with thick, beautiful coat of fur",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyrMMN4IkgNHOoKOa8l0yxHCnY1aeabD-pXA&usqp=CAU",
-    size: "large",
+    size: "Large",
     lifespan: 12,
+    breed: "Purebred",
+  },
+  {
+    name: "Husky",
+    price: 1750,
+    description: "Compact, thick-coated sled dog with exceptional endurance",
+    image:
+      "https://th.bing.com/th/id/OIP.P5uAlDJNiDN2Q6OYXARXzQHaIj?w=186&h=215&c=7&r=0&o=5&pid=1.7",
+    size: "Medium",
+    lifespan: 15,
+    breed: "Purebred",
   },
   {
     name: "Pomeranian",
     price: 6000,
-    description: "fluffy",
+    description: "Elegant, fluffy double coat, foxy face, and perky ears.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFrwdL3vZKozabX4fjR500mRqZwx0xfplyEg&usqp=CAU",
+    size: "Small",
+    lifespan: 16,
+    breed: "Purebred",
+  },
+  {
+    name: "Chow Chow",
+    price: 2500,
+    description:
+      "Square, strong build, and coat that is styled to resemble a lion's",
+    imge: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPho67-idhzs946pAD87eGPwoPmpydroXgPg&usqp=CAU",
+    size: "Medium",
+    lifespan: 15,
+    breed: "Purebred",
+  },
+  {
+    name: "Maltipoo",
+    price: 3500,
+    description:
+      "A hybrid between a maltese and poodle. Gentle, playful, and highly intelligent.",
+    image:
+      "https://megamascota.hiperarticulos.com/wp-content/uploads/2016/09/Chow-Chow-2-1024x907.jpg",
+    size: "Small",
+    lifespan: 15,
+    breed: "Mixed",
+  },
+  {
+    name: "Pomsky",
+    price: 5000,
+    description:
+      "A hybrid between a Siberian husky and a pomeranian. They have fluffy, triangular ears, intelligent, and very active.",
+    image:
+      "https://th.bing.com/th/id/OIP.dkcS0e6-0jq-izqmFm9tBQHaE8?w=264&h=180&c=7&r=0&o=5&pid=1.7",
+    size: "Medium",
+    lifespan: 15,
+    breed: "Mixed",
+  },
+  {
+    name: "Cockapoo",
+    price: 2500,
+    description: "A hybrid between a cocker spaniel and a poodle.",
+    image:
+      "https://th.bing.com/th/id/OIP.qyaaeNQ97ZQlBz6d1wr4qwHaFz?w=207&h=180&c=7&r=0&o=5&pid=1.7",
+    size: "Small",
+    lifespan: 17,
+    breed: "Mixed",
+  },
+  {
+    name: "Goldendoodle",
+    price: 3500,
+    description: "A hybrid between a golden retriever and poodle.",
+    image:
+      "https://th.bing.com/th/id/OIP.Lnnhycjd6kmyY9C4YQB9gwHaHa?w=181&h=181&c=7&r=0&o=5&pid=1.7",
+    size: "Medium",
+    lifespan: 15,
+    breed: "Mixed",
+  },
+  {
+    name: "Shiba Inu",
+    price: 3000,
+    description: "",
+    image: "https://th.bing.com/th/id/OIP.6LOFoODNAeX6OYQNa-j7YgHaE8?w=290&h=186&c=7&r=0&o=5&pid=1.7",
   },
 ];
