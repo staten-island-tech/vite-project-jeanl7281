@@ -70,6 +70,16 @@ const dogtypes = [
     breed: "Purebred",
   },
   {
+    name: "Shiba Inu",
+    price: 3000,
+    description: "Strong prey drive and are devoted and vigilant dogs.",
+    image:
+      "https://th.bing.com/th/id/OIP.6LOFoODNAeX6OYQNa-j7YgHaE8?w=290&h=186&c=7&r=0&o=5&pid=1.7",
+    size: "Medium",
+    lifespan: 15,
+    breed: "Purebred",
+  },
+  {
     name: "Maltipoo",
     price: 3500,
     description:
@@ -110,11 +120,5 @@ const dogtypes = [
     size: "Medium",
     lifespan: 15,
     breed: "Mixed",
-  },
-  {
-    name: "Shiba Inu",
-    price: 3000,
-    description: "",
-    image: "https://th.bing.com/th/id/OIP.6LOFoODNAeX6OYQNa-j7YgHaE8?w=290&h=186&c=7&r=0&o=5&pid=1.7",
   },
 ];

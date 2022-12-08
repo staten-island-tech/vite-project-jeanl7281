@@ -9,11 +9,12 @@ body,
 
 :root{
     --black: #000;
-    --light-blue: #ADD8E6;
-    --dark-blue: #135cc5;
-    --light-red: #f87171;
-    --dark-red: #dc2626;
-    --gray: #808080;
+    --light-blue: #adcfe6;
+    --dark-blue: #8cb4ff;
+    --light-green: #9df19a;
+    --dark-green: #59d859;
+    --gray: #aaaaaa;
+    --white: rgb(255, 255, 255);
 
     --primary: var(--light-blue);
     --secondary: var(--dark-blue);
@@ -26,8 +27,8 @@ body,
 }
 
 .warm{   
-    --primary: var(--light-red);
-    --secondary: var(--dark-red);
+    --primary: var(--light-green);
+    --secondary: var(--dark-green);
 }
 
 .cool{
@@ -35,12 +36,20 @@ body,
     --secondary: var(--dark-blue);
 }
 
-.hero {
+.store {
     background-color: var(--primary);
 }
 .main{
     background-color: var(--secondary);
     height: 90vh;
+}
+
+.store {
+    color: var(--white);
+}
+
+.greeting {
+    color: var(--gray);
 }
 
 h1 {
