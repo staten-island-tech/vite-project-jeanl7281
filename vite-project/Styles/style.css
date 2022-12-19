@@ -26,12 +26,12 @@ body,
     --h5: 1.5rem;
 }
 
-.warm{   
+.light{   
     --primary: var(--light-green);
     --secondary: var(--dark-green);
 }
 
-.cool{
+.dark{
     --primary: var(--light-blue);
     --secondary: var(--dark-blue);
 }
@@ -110,5 +110,13 @@ h5 {
 }
 
 #light {
-    
+    position: fixed;
+    top: 10;
+    right: 10;
+}
+
+#dark {
+    position: fixed;
+    top: 50;
+    right: 10;
 }
