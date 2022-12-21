@@ -8,6 +8,13 @@ import "./selections.js";
 
 const DomSelectors = {
   colorChange: document.querySelector("btn1"),
+  allBtn: document.querySelector(".btn2"),
+  largeBtn: document.querySelector(".btn3"),
+  mediumBtn: document.querySelector(".btn4"),
+  smallBtn: document.querySelector(".btn5"),
+  pureBtn: document.querySelector(".btn6"),
+  parent: document.querySelector("#parentContainer"),
+  child: document.querySelector(".child"),
 };
 
 document.querySelector(".btn").addEventListener("click", function () {
