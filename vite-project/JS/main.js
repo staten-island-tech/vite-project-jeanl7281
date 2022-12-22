@@ -17,12 +17,14 @@ const DomSelectors = {
   child: document.querySelector(".child"),
 };
 
-document.querySelector(".btn").addEventListener("click", function () {
-  if (document.body.classList.contains("dark")) {
-    document.body.classList.add("light");
-    document.body.classList.remove("dark");
-  } else {
-    document.body.classList.add("dark");
-    document.body.classList.remove("light");
+DomSelectors.colorChange.addEventListener
+(`click`, function () {
+  if 
+  (document.body.classList.contains("defaultTheme")) {
+    document.body.classList.add("alternateTheme");
+    document.body.classList.remove("defaultTheme");
+    document.body.classList.contains("alternateTheme");
+    document.body.classList.add("defaultTheme");
+    document.body.classList.remove("alternateTheme");
   }
-});
+})
