@@ -1,28 +1,32 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Styles/style.css" />
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <title>Vite</title>
+    <link rel="stylesheet" href="Styles/style.css" />
 </head>
-<body>
-<div class="defaultTheme"></div>
-<div class="light-Blue"></div>
-  <h1 class="store">World Of Dogs</h1>
-  <h4 class="greeting">Welcome to the World Of Dogs!</h4>
-  <div class="main">
-    <button class="btn1">Change Theme</button>
-    <button class="btn2" id="all">All Dogs</button>
-    <button class="btn3" id="large">Large Dogs</button>
-    <button class="btn4" id="medium">Medium Dogs</button>
-    <button class="btn5" id="small">Small Dogs</button>
-    <button class="btn6" id="pure">Purebred Dogs</button>
-    <button class="btn7" id="mixed">Mixed Dogs</button>
-</div>
-
-<div id="parentContainer"></div>
-  <script type="module" src="JS/main.js"></script>
+<body class="dark">
+    <h1 class="main">Selection</h1>
+    <div class="header">
+    <h4> Welcome to Dog Haven!</h4>
+      <div class="options">
+        <button class="opt-btn" id="all">All Dogs</button>
+        <button class="opt-btn" id="large"> Full Menu</button>
+        <button class="opt-btn" id="medium"> Drinks </button>
+        <button class="opt-btn" id="small"> Beef </button>
+        <button class="opt-btn" id="pure"> Chicken </button>
+        <button class="opt-btn" id="mixed"> Pork </button>
+      </div>
+      <div id="themebtn" class="themebtn">
+        <button class="theme" id="light"> Light </button>
+        <button class="theme" id="dark"> Dark </button>
+      </div>
+    </div>
+    <div class="dog-type" id="dog-type"></div> 
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
-

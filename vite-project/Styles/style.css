@@ -1,123 +1,103 @@
-html,
-body,
+@import url(type.css);
+@import url(btn.css);
+
+html, 
+body{
+    background-color: var(--bg);
+} 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 62.5%;
 }
 
-:root{
-    --black: #000;
-    --light-blue: #adcfe6;
-    --dark-blue: #8cb4ff;
-    --light-green: #ade6ac;
-    --dark-green: #6eb36e;
-    --gray: #aaaaaa;
-    --white: rgb(255, 255, 255);
+:root {
+    --light-header: #f0f0f0;
+    --light-bg: #ffffff;
+    --light-imgbg: #ceced6b2;
 
-    --primary: var(--light-blue);
-    --secondary: var(--dark-blue);
+    --dark-header: #000000;
+    --dark-bg: #353535;
+    --dark-imgbg: #202124;
 
-    --h1: 7.594rem;
-    --h2: 5.063rem;
-    --h3: 3.375rem;
-    --h4: 2.25rem;
-    --h5: 1.5rem;
+    --black: #000000;
+    --white: #ffffff;
+    --navy: #1f597a;
 }
 
-.light{   
-    --primary: var(--light-green);
-    --secondary: var(--dark-green);
+.light {
+    --header: var(--light-header);
+    --bg: var(--light-bg);
+    --imgbg: var(--light-imgbg);
 }
 
-.dark{
-    --primary: var(--light-blue);
-    --secondary: var(--dark-blue);
+.dark {
+    --header: var(--dark-header);
+    --bg: var(--dark-bg);
+    --imgbg: var(var(--dark-imgbg));
 }
 
-.store {
-    background-color: var(--primary);
-}
-.main{
-    background-color: var(--secondary);
-    height: 90vh;
+.main {
+    background-color: var(--header);
 }
 
-.store {
-    color: var(--white);
-}
-
-.greeting {
-    color: var(--gray);
+.header {
+    background-color: var(--bg);
 }
 
 h1 {
-    font-size: var(--h1);
+    color: #f8ba31;
 }
-h2 {
-    font-size: var(--h2);
-}
-h3 {
-    font-size: var(--h3);
-}
+
 h4 {
-    font-size: var(--h4);
-}
-h5 {
-    font-size: var(--h5);
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-    text-align: center;
-}
-.btn,
-.btn:link,
-.btn:visited {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    display: inline-block;
-    margin: 1rem auto;
-    font-size: 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    transition: all 0.2%;
-}
-.btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
-}
-.opt-btn {
-    padding: 1rem 1rem;
-    margin: 1rem auto;
-    font-size: 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    
+    color: #999ea2;
 }
 
-.theme {
-    padding: 1px 2px;
-    font-size: 20px;
-    border: none;
-    width: 11 rem;
-    height: 2.5 rem;
-    border-radius: 15px;
-    text-align: center;
-}
-
-.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7 {
-    cursor: ponter;
+.dog-type {
     display: flex;
-    font-size: var(--h2);
-    width: 30rem;
-    margin: 2rem;
-    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    align-content: center;
-    border-radius: 1rem;
-    transition: 0.5s;
+    width: 98.5vw;
+    justify-content: space-around;
+    align-content: space-around;
+    font-family: 'Bitter', serif;
+}
+
+.dog-card {
+    margin-top: 40px;
+    text-align: center;
+    background-color: var(--imgbg);
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 27%;
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.dog-image {
+    margin-top: 50px;
+    margin-left: 50%;
+    margin-right: 50%;
+    text-align: center;
+    width:430px;
+    height:310px;
+    margin: 0 auto;
+}
+
+.dog-price {
+    margin-top: 10px;
+    font-size: 50px;
+
+}
+
+.dog-description {
+    font-size: 30px;
+    margin-bottom: 10px;
 }
