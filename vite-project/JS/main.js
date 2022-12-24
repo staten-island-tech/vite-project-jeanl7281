@@ -1,5 +1,5 @@
 import { dogtypes } from "./selections";
-import "../Styles/style.css";
+import "Styles/style.css";
 import { DOMSelectors } from "./dom";
 import { DOMSelectorsTwo } from "./dom";
 import AOS from "aos";
