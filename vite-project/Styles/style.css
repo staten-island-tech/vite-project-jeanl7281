@@ -71,9 +71,9 @@ h4 {
     border: 3px solid black;
     border-radius: 10px;
     margin-bottom: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    width: 27%;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30%;
 }
 
 .name {
@@ -94,7 +94,7 @@ h4 {
 
 .dog-price {
     margin-top: 10px;
-    font-size: 50px;
+    font-size: 40px;
 
 }
 
