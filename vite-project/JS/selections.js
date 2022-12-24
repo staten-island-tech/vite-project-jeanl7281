@@ -34,7 +34,7 @@ const dogtypes = [
     price: 1000,
     description: "Well-built dog with thick, beautiful coat of fur",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyrMMN4IkgNHOoKOa8l0yxHCnY1aeabD-pXA&usqp=CAU",
+      "https://cdn.pixabay.com/photo/2019/04/17/20/18/golden-retriever-4135265_960_720.jpg",
     size: "Large",
     lifespan: 12,
     breed: "Purebred",
@@ -44,7 +44,7 @@ const dogtypes = [
     price: 1750,
     description: "Compact, thick-coated sled dog with exceptional endurance",
     image:
-      "https://th.bing.com/th/id/OIP.P5uAlDJNiDN2Q6OYXARXzQHaIj?w=186&h=215&c=7&r=0&o=5&pid=1.7",
+      "https://cdn.pixabay.com/photo/2018/07/10/15/36/dog-3528936_960_720.jpg",
     size: "Medium",
     lifespan: 15,
     breed: "Purebred",
@@ -64,7 +64,7 @@ const dogtypes = [
     price: 2500,
     description:
       "Square, strong build, and coat that is styled to resemble a lion's",
-    imge: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPho67-idhzs946pAD87eGPwoPmpydroXgPg&usqp=CAU",
+    image: "https://cdn.pixabay.com/photo/2022/04/13/15/00/chow-chow-7130445_960_720.jpg",
     size: "Medium",
     lifespan: 15,
     breed: "Purebred",

@@ -1,5 +1,5 @@
 import { dogtypes } from "./selections";
-import "./Styles/style.css";
+import "../Styles/style.css";
 import { DOMSelectors } from "./dom";
 import { DOMSelectorsTwo } from "./dom";
 import AOS from "aos";
@@ -27,7 +27,7 @@ function alldogs() {
     DOMSelectors.dogtype.insertAdjacentHTML(
       "beforeend",
       `<div class="dog-card">
-              <h2>${item.name}</h2>
+              <h2 class="name">${dog.name}</h2>
               <img class="dog-image" src="${dog.image}">
               <p class="dog-price">$${dog.price}</p>
               <p class="dog-description">${dog.description}</p>
@@ -92,11 +92,11 @@ function pure() {
     .forEach((dog) => {
       DOMSelectors.dogtype.insertAdjacentHTML(
         "beforeend",
-        `<div class="menu-card">
+        `<div class="dog-card">
                 <h2 class="name">${dog.name}</h2>
-                <img class="menu-image" src="${dog.image}">
-                <p class="menu-price">$${dog.price}</p>
-                <p class="menu-description">${dog.description}</p>
+                <img class="dog-image" src="${dog.image}">
+                <p class="dog-price">$${dog.price}</p>
+                <p class="dog-description">${dog.description}</p>
             </div>`
       );
     });

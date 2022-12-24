@@ -46,11 +46,11 @@ body{
 }
 
 h1 {
-    color: #f8ba31;
+    color: #31caf8;
 }
 
 h4 {
-    color: #999ea2;
+    color: #9ec3e0;
 }
 
 .dog-type {
@@ -78,7 +78,8 @@ h4 {
 
 .name {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 
 .dog-image {
@@ -86,8 +87,8 @@ h4 {
     margin-left: 50%;
     margin-right: 50%;
     text-align: center;
-    width:430px;
-    height:310px;
+    width:380px;
+    height:270px;
     margin: 0 auto;
 }
 
@@ -98,6 +99,6 @@ h4 {
 }
 
 .dog-description {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
