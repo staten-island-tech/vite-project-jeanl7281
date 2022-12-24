@@ -12,17 +12,17 @@ body{
 }
 
 :root {
-    --light-header: #f0f0f0;
-    --light-bg: #ffffff;
-    --light-imgbg: #ceced6b2;
+    --light-header: #edf4fd;
+    --light-bg: #f5fcff;
+    --light-imgbg: #fcfbfbb2;
 
-    --dark-header: #000000;
-    --dark-bg: #353535;
-    --dark-imgbg: #202124;
+    --dark-header: #2d2d2d;
+    --dark-bg: #515151;
+    --dark-imgbg: #6e6e6e;
 
-    --black: #000000;
+    --darkgrey: #2a2a2a;
     --white: #ffffff;
-    --navy: #1f597a;
+    --navy: #235877;
 }
 
 .light {
@@ -46,11 +46,11 @@ body{
 }
 
 h1 {
-    color: #31caf8;
+    color: #5cd9ff;
 }
 
 h4 {
-    color: #9ec3e0;
+    color: #b3daf7;
 }
 
 .dog-type {

@@ -54,7 +54,7 @@ const dogtypes = [
     price: 6000,
     description: "Elegant, fluffy double coat, foxy face, and perky ears.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFrwdL3vZKozabX4fjR500mRqZwx0xfplyEg&usqp=CAU",
+      "https://cdn.pixabay.com/photo/2015/12/29/20/51/dog-1113398_960_720.jpg",
     size: "Small",
     lifespan: 16,
     breed: "Purebred",
@@ -106,7 +106,7 @@ const dogtypes = [
     price: 2500,
     description: "A hybrid between a cocker spaniel and a poodle.",
     image:
-      "https://th.bing.com/th/id/OIP.qyaaeNQ97ZQlBz6d1wr4qwHaFz?w=207&h=180&c=7&r=0&o=5&pid=1.7",
+      "https://images.unsplash.com/photo-1644928873735-0e201fc9421e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1165&q=80",
     size: "Small",
     lifespan: 17,
     breed: "Mixed",
@@ -116,7 +116,7 @@ const dogtypes = [
     price: 3500,
     description: "A hybrid between a golden retriever and poodle.",
     image:
-      "https://th.bing.com/th/id/OIP.Lnnhycjd6kmyY9C4YQB9gwHaHa?w=181&h=181&c=7&r=0&o=5&pid=1.7",
+      "https://cdn.pixabay.com/photo/2019/03/22/14/05/golden-doodle-4073353_960_720.jpg",
     size: "Medium",
     lifespan: 15,
     breed: "Mixed",
